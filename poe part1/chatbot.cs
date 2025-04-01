@@ -8,7 +8,12 @@ namespace poe_part1
 {
     internal class chatbot
     {
-        public Dictionary<string,string>chatbotQA = new Dictionary<string, string> { { "",""} };
+        public Dictionary<string,string>chatbotQA = new Dictionary<string, string> 
+        {
+            { "what is your purpose","i am here to help you stay safe online"},
+            { "",""}
+
+        };
 
         public string getResponse(string input, user user)
         {
